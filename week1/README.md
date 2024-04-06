@@ -16,9 +16,8 @@
 * เชื่อมต่อ PC/Notebook เข้ากับ Firewall ผ่านพอร์ตใดพอร์ตหนึ่ง ใน 1-7 พอร์ต
 * เข้า Browser จากนั้นเข้า Url >> https://192.168.1.99/ (Default IP Address)
 * เข้าสู่ระบบด้วย Username >> admin ไม่ต้องใส่ password แล้วเข้าสู่ระบบ
-    ![img_fwlogin](https://img5.pic.in.th/file/secure-sv1/Screenshot-2024-04-06-234327.png)
-<br>
 
+![img_fwlogin](https://img5.pic.in.th/file/secure-sv1/Screenshot-2024-04-06-234327.png)
 * สร้าง User โดยเข้า User Authentication > User Definition จากนั้นกด Create New
     * กรอก Username / Password จาก นั้นกด Next จนจบ
     * สร้าง Group แล้วเพิ่ม user ที่สร้างเข้าไป
