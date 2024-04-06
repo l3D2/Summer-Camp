@@ -25,6 +25,10 @@
     * เข้าไปแก้ไขในส่วน
     ![img_fwInf](https://i.postimg.cc/fLDDX915/Screenshot-2024-04-07-002414.png)
     * ลบ Port Internal ที่เราจะใช้ออก
+* ทำการสร้าง Interface ของ Service 1-4
+    * กำหนด Type: Hardware Switch
+    * กำหนด IP 10.80.x.0 โดย x จะเปลี่ยนตามเลข Service ที่สร้าง
+    * เลือก [x] PING
 
 Credits: [YouTube_FireWall]
 
