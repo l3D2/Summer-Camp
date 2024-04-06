@@ -28,7 +28,8 @@
 * ทำการสร้าง Interface ของ Service 1-4
     * กำหนด Type: Hardware Switch
     * กำหนด IP 10.80.x.0 โดย x จะเปลี่ยนตามเลข Service ที่สร้าง
-    * เลือก [x] PING
+    * เลือก 
+    [x] PING
 
 Credits: [YouTube_FireWall]
 
