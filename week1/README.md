@@ -30,7 +30,7 @@
     * กำหนด IP 10.80.x.0 โดย x จะเปลี่ยนตามเลข Service ที่สร้าง
     * เลือก
 
-    [ x ] PING
+[ x ] PING
 
 Credits: [YouTube_FireWall]
 
