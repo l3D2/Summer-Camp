@@ -33,11 +33,6 @@
 * ทำการสร้าง Interface ชื่อ mgmt
     * กำหนด Type: Hardware Switch
     * กำหนด IP: 0.0.0.0/0.0.0.0
-    * IPv4 เลือก
-    - [x] HTTP
-    - [x] HTTPS
-    - [x] PING
-    - [x] SSH
 * ทำการสร้าง Interface ชื่อ Inf851
     * กำหนด Type: Vlan
     * กำหนด Vlan ID: 1
