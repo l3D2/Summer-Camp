@@ -27,9 +27,26 @@
     * ลบ Port Internal ที่เราจะใช้ออก
 * ทำการสร้าง Interface ของ Service 1-4
     * กำหนด Type: Hardware Switch
-    * กำหนด IP 10.80.x.0 โดย x จะเปลี่ยนตามเลข Service ที่สร้าง
-    * เลือก
+    * กำหนด IP: 10.80.x.0/25 โดย x จะเปลี่ยนตามเลข Service ที่สร้าง
+    * IPv4 เลือก
     - [x] PING
+* ทำการสร้าง Interface ชื่อ mgmt
+    * กำหนด Type: Hardware Switch
+    * กำหนด IP: 0.0.0.0/0.0.0.0
+    * IPv4 เลือก
+    - [x] HTTP
+    - [x] HTTPS
+    - [x] PING
+    - [x] SSH
+* ทำการสร้าง Interface ชื่อ Inf851
+    * กำหนด Type: Vlan
+    * กำหนด Vlan ID: 1
+    * เลือก Addressing mode เป็น DHCP เพื่อให้อุปกรณ์ทำการจัดสรร IP ให้ และกำหนด IP: 10.85.1.0
+    * IPv4 เลือก
+    - [x] HTTP
+    - [x] HTTPS
+    - [x] PING
+    - [x] SSH
 
 Credits: [YouTube_FireWall]
 
