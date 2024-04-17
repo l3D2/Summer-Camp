@@ -42,10 +42,13 @@
     - [x] HTTPS
     - [x] PING
     - [x] SSH
+* ตั้งค่า VPN
+* สร้าง Policy ของ Interface,VPN
 
 Credits: [YouTube_FireWall]
 
 [YouTube_FireWall]: https://www.youtube.com/watch?v=XcghOBrZANc&list=PLlEVCBdM7ELOSd9zLJNE3FrIMzZiWlSkm
+
 ---
 
 - ### Switch FortiSwitch 424d
@@ -61,6 +64,18 @@ Credits: [YouTube_FireWall]
 ![Port Connectors](https://img2.pic.in.th/pic/Screenshot-2024-04-06-201851.png)
 
 </div>
+
+- SW1 (Service)
+    * Reset Switch(รีให้เป็นค่าเริ่มต้น)
+    * Setup IP/Host จาก Firewall
+    * Create config trunk server1(1,2), server2(3,4) ** ทำการมัดรวม lacp **
+    * Create config Vlan 801,802,803,804
+
+- SW2 (mgmt)
+    * Reset Switch(รีให้เป็นค่าเริ่มต้น)
+    * Setup IP/Host จาก Firewall
+    * Create config trunk server1(1,2), server2(3,4) ** ทำการมัดรวม lacp **
+    * Create config Vlan 851,852
 
 ---
 
